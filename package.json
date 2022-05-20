@@ -1,0 +1,46 @@
+{
+  "name": "simple-boilerplate",
+  "version": "1.0.0",
+  "description": "simple node boilerplate with jwt authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahari884/simple-node-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "boilerplate",
+    "authentication",
+    "jwt",
+    "jasonwebtoken",
+    "mongodb",
+    "express.js",
+    "http-server"
+  ],
+  "author": "Harish Allakonda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahari884/simple-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ahari884/simple-node-boilerplate#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.1",
+    "compression": "^1.7.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "glob": "^7.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.21",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "nodemailer": "^6.7.5",
+    "owasp-password-strength-test": "^1.3.0",
+    "path": "^0.12.7",
+    "validator": "^10.2.0"
+  }
+}
